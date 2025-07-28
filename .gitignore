@@ -1,19 +1,25 @@
-# Ignore compiled output
-dist/
-*.js
-*.js.map
+# Top-level .gitignore
 
-# Node modules
+# Node artifacts
 node_modules/
-
-# Logs and temp
+dist/
 *.log
-*.tmp
 
-# IDE/editor settings
+# Editor artifacts
 .vscode/
-.idea/
-
-# OS-specific clutter
 .DS_Store
-Thumbs.db
+
+# Puzzle output
+*.ecto.json
+
+# System artifacts
+.env
+package-lock.json
+
+# Elixir build files
+server/_build/
+server/deps/
+server/.elixir_ls/
+
+# Ignore generated JS files
+*.js
