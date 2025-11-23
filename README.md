@@ -32,13 +32,38 @@ Every instruction has an **inverse** that reverses its effect without informatio
 
 ## ✨ Features
 
-- ✅ **5 Core Instructions:** ADD, SUB, SWAP, NEGATE, NOOP
+### Core Capabilities
+- ✅ **13 Reversible Instructions:** ADD, SUB, SWAP, NEGATE, NOOP, XOR, FLIP, ROL, ROR, AND, OR, MUL, DIV
 - ✅ **Perfect Reversibility:** Every operation is perfectly undoable
 - ✅ **Type Safety:** ReScript's sound type system prevents errors
 - ✅ **Zero Dependencies:** No npm, no node_modules, just Deno + ReScript
-- ✅ **Puzzle System:** JSON-based puzzle definitions
-- ✅ **CLI Interface:** Full command-line interface with demo and tests
-- ✅ **Comprehensive Build System:** 40+ Just recipes for all tasks
+
+### Puzzle System
+- ✅ **26+ Puzzles:** Beginner to Expert difficulty levels
+- ✅ **JSON Schema:** Formal puzzle validation with schema
+- ✅ **Puzzle Solver:** Interactive solving with move validation and undo
+- ✅ **Puzzle Validator:** Comprehensive validation tool for puzzle authors
+- ✅ **Goal Tracking:** Visual diff and progress tracking
+
+### Developer Experience
+- ✅ **CLI Interface:** Full command-line with demo, tests, and puzzle runner
+- ✅ **Comprehensive Tests:** 20+ unit tests with reversibility verification
+- ✅ **Test Runner:** Automated test suite with detailed reporting
+- ✅ **Performance Benchmarks:** Compare instruction execution speeds
+- ✅ **State Diff Utilities:** Visual state comparison and change tracking
+
+### Documentation
+- ✅ **Beginner Tutorial:** 10-minute getting started guide
+- ✅ **API Reference:** Complete API documentation for all modules
+- ✅ **Puzzle Creation Guide:** Step-by-step guide to creating puzzles
+- ✅ **Reversible Computing Concepts:** Deep dive into theory and applications
+- ✅ **8 Example Programs:** From basic operations to quantum gate simulation
+
+### Build & Development
+- ✅ **50+ Just Recipes:** Comprehensive build system
+- ✅ **RSR Bronze Tier:** Rhodium Standard Repository compliance
+- ✅ **CI/CD Pipeline:** Automated testing and verification
+- ✅ **Development Workflow:** Complete contributor guide
 
 ---
 
